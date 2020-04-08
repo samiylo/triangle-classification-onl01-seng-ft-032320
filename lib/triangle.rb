@@ -25,4 +25,8 @@ class Triangle
     end
 
   end
+  
+  class TriangleError < StandardError
+    puts "error"
+  end
 end
