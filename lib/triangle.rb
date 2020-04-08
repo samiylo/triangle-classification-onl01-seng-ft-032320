@@ -23,10 +23,10 @@ class Triangle
         :scalene
       end
     end
-
   end
   
   class TriangleError < StandardError
-    puts "error"
+    puts "The sides you put in are invalid. Please try again."
   end
+  
 end
